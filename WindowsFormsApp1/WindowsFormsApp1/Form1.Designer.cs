@@ -50,6 +50,15 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Gomb 2";
             this.button2.UseVisualStyleBackColor = true;
+            //
+            //button3
+            //
+            this.button3.Location = new System.Drawing.Point(300, 400);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Gomb 3";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
