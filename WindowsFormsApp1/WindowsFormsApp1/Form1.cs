@@ -19,11 +19,10 @@ namespace WindowsFormsApp1
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            
-            if(MessageBox.Show("Biztosan ki akarsz lépni?","Kilépés", MessageBoxButtons.YesNo) == DialogResult.Yes)
-                {
-                    this.Close();
-                }
+            if (MessageBox.Show("Biztosan ki akarsz lépni?", "Kilépés", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }
